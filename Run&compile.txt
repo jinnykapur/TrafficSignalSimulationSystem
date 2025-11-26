@@ -1,0 +1,4 @@
+# 1. Compile and run
+javac -d out src/com/traffic/model/*.java src/com/traffic/service/*.java src/com/traffic/main/*.java
+
+java -cp out com.traffic.main.TrafficSimulation
